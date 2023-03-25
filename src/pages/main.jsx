@@ -9,7 +9,7 @@ export const MainPage = () => (
                     <Link to="/counter">Counter</Link>
                 </li>
                 <li>
-                    <Link to="/two">Page Two</Link>
+                    <Link to="/modal">Modal</Link>
                 </li>
             </ul>
         </nav>
