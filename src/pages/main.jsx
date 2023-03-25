@@ -11,6 +11,9 @@ export const MainPage = () => (
                 <li>
                     <Link to="/modal">Modal</Link>
                 </li>
+                <li>
+                    <Link to="/quiz">Quiz</Link>
+                </li>
             </ul>
         </nav>
     </>
