@@ -3,6 +3,7 @@ import { MainPage } from './pages/main';
 import { CounterPage } from './pages/counter';
 import {ModalPage} from "./pages/modal";
 import {QuizPage} from "./pages/quiz";
+import {UsersPage} from "./pages/users";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
                 <Route path='counter' element={<CounterPage />} />
                 <Route path='modal' element={<ModalPage />} />
                 <Route path='quiz' element={<QuizPage />} />
+                <Route path='users' element={<UsersPage />} />
 
             </Routes>
         </BrowserRouter>

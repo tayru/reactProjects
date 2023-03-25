@@ -14,6 +14,9 @@ export const MainPage = () => (
                 <li>
                     <Link to="/quiz">Quiz</Link>
                 </li>
+                <li>
+                    <Link to="/users">Users</Link>
+                </li>
             </ul>
         </nav>
     </>
