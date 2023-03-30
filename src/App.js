@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { MainPage } from './pages/main';
 import { CounterPage } from './pages/counter';
