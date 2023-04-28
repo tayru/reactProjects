@@ -5,6 +5,7 @@ import { CounterPage } from './pages/counter';
 import {ModalPage} from "./pages/modal";
 import {QuizPage} from "./pages/quiz";
 import {UsersPage} from "./pages/users";
+import {DiagramPage} from "./pages/diagram";
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
                 <Route path='modal' element={<ModalPage />} />
                 <Route path='quiz' element={<QuizPage />} />
                 <Route path='users' element={<UsersPage />} />
-
+                <Route path='diagram' element={<DiagramPage />} />
             </Routes>
         </BrowserRouter>
     );
